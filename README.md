@@ -1,6 +1,8 @@
 # Gurugram-Cyber-Heist-2021-Write-Ups
 Solutions to the CTF conducted at GPCSSI 2021 - Cyber Heist 
 
+Note: This CTF was not an international event, and it is not on ctftime.org either.
+
 ## 1. All About Web
 
 ```
