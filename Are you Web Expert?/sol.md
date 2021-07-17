@@ -1,3 +1,4 @@
+* Ok, so the short answer to the question would be: No, I'm not xD
 * Site: https://iopt3w.hackingbrawl.com/
 * The only interesting thing is the cookie part, which says "admin". Now, encoding the cookie should work, provided there is no other hurdle.
 * Upon encoding the cookie with base64, we get the flag.
